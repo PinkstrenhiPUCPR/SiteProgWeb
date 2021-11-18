@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{ 
+    height: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-color: #c6e1dd;
+    width: 100%;
+}
+.SiteBanner{
+    background-color: #c6e1dd;
+    height: 300px; 
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.SiteSlogan{
+    text-align: center;
+    background-color: #59746f;
+    color: white;
+    padding-top: 15px;
+    height: 50px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+
+}
+.SiteLogo{
+   margin-left: 30px;
+   padding-top: 15px;
+}
+.SiteIcons{
+    position: absolute;
+    top: 10%;
+    padding-left: 80%;
+}
+.SiteInitialText01{
+    text-align: center;
+    padding-left: 400px;
+    width: 70%;
+    color: #394946;
+}
+.SiteInitialText02{
+    text-align: justify;
+    padding-left: 400px;
+    width: 100%;
+    color: #394946;
+}
+.TextInitial01{
+    font-size: 25px;
+    font-weight: bold;
+    color: #394946;
+}
+.TextInitial02{
+    font-size: 20px;
+    font-weight: bold;
+    color: #59746f;
+}
+.TextInitial03{
+    font-size: 20px;
+    font-weight: bold;
+    color: #394946;
+}
+.SiteButtonInitialText{
+    background-color: #59746f;
+    color: #c6e1dd;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.SiteButtonInitialText:hover{
+    background-color: #394946;
+    color: #a5bdb9;
+}
+
+.SiteTextTitle{
+    background-color: #c6e1dd;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: #394946;
+    height: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.SiteButtonMore{
+    background-color: #59746f;
+    color: #c6e1dd;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+   
+}
+.SiteButtonMore:hover{
+    background-color: #394946;
+    color: #a5bdb9;
+}
+.SiteVideo{
+    margin-top: 70px;
+    margin-left: 310px;
+}
+
+.SiteComments01{
+    text-align: center;
+    height: 200px;
+    background-color: #59746f;
+    color: #c6e1dd;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.SiteComments02{
+    text-align: center;
+    height: 200px;
+    width: 2000px;
+    background-color: #c6e1dd;
+    color: #59746f;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+.SiteContact{
+    margin-top: 30px;
+    margin-left: 430px;
+}
+.SiteSocialMedia{
+    margin-top: 30px;
+    height: 90px;
+    background-color: #c6e1dd;
+}
+.SiteSocialMedia img{
+    margin-top: 10px;
+    margin-left: 520px;
+}
+#products{
+    width: 100%;
+    height: 100%;
+ }
+.card{
+    background-color: #59746f;
+    width: 220px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+    margin-left: 162px;
+}
+.productImg img{
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+}
+.productDescription{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #c6e1dd;
+    font-weight: bold;
+
+}
+.buy{
+    background-color: #c6e1dd;
+    color: #59746f;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    margin: 20px;
+    margin-left: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buy:hover{
+    background-color: #9cb8b3;
+    color: #59746f;
+}
+.shoppingCart{
+    background-color: black;
+    color: white;
+}
+.IconButton{
+    border: none;
+    color: none;
+    font-size: 0%;
+}

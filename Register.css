@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{ 
+    height: 100%;
+    overflow-x: hidden;
+}
+.RegisterHeader{
+    background-color: #59746f;
+    height: 200px;
+}
+.RegisterHeader img{
+   width: 100%;
+   height: 100%;
+}
+.RegisterFields{
+    margin-left: 235px;
+    margin-top: 5px;
+    background-color: #c6e1dd;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+}
+.RegisterFields::placeholder{
+    color: #59746f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.RegisterTitle{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.RegisterBackground{
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color: #59746f;
+    height: 95%;
+    width: 65%;
+    border-radius: 10px;
+}
+.RegisterButton{
+    background-color: #c6e1dd;
+    color: #59746f;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 315px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.RegisterButton:hover{
+    background-color: #a5bdb9;
+    color: #394946;
+}

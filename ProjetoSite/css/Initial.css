@@ -213,3 +213,56 @@ header{
     color: none;
     font-size: 0%;
 }
+@media(max-width:900px){
+    .SiteIcons{
+        margin-left: 5%;
+    }
+    .SiteInitialText01{
+        text-align: center;
+    }
+    .SiteInitialText02{
+        margin-left: -15%;
+    }
+    .TextInitial01{
+        text-align: center;
+    }
+    .TextInitial02{
+        text-align: center;
+    }
+    .TextInitial03{
+        text-align: center;
+    }
+    .SiteButtonInitialText{
+        margin-left: 25%;
+    }
+    .SiteButtonInitialTex:hover{
+        margin-left: 25%;
+    }
+    .SiteButtonInitialText:hover{
+        margin-left: 5%;
+    }
+    .SiteButtonMore{
+        margin-left: 45%;
+    }
+    .SiteButtonMore:hover{
+        margin-left: 45%;
+    }
+    .SiteVideo{
+        margin-left: 5%;
+    }
+    .SiteContact{
+        margin-left: 25%;
+    }
+    .productDescription{
+        margin-left: 5%;
+    }
+    .buy{
+        margin-left: 5%;
+    }
+    .shoppingCart{
+        margin-left: 5%;
+    }
+    .IconButton{
+        margin-left: 5%;
+    }
+}

@@ -44,3 +44,16 @@ html,body{
     background-color: #394946;
     color: #a5bdb9;
 }
+@media(max-width:900px){
+    .CartHeader img{
+        width: 100%;
+        height: 100%;
+    }
+    .ButtonBuyCart{
+       margin-left: 45%;
+    }
+    .ButtonBuyCart:hover{
+        margin-left: 45%;
+
+    }
+}

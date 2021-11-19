@@ -2,9 +2,9 @@ storage = window.localStorage;
 var shopList = JSON.parse(storage.getItem("shopList"))||"[]";
 
 window.onload = function(){
-    buildProductCart();
+    BuildProductCart();
 }
-function buildProductCart(){
+function BuildProductCart(){
     document.getElementById("cart").innerHTML = "";
 
         for(var i = 0; i < shopList.length; i++)
@@ -24,6 +24,6 @@ function buildProductCart(){
             document.getElementById("cart").innerHTML += content;
         }
 }
-function buyCart(){
+function BuyCart(){
     storage.removeItem("shopList");
 }

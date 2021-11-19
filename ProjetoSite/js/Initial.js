@@ -16,7 +16,7 @@ function buildProductCard(){
     for(var i = 0; i < productsList.length; i++)
     {        
         var content = "";
-        /* Card Pulseira Pena*/ 
+        /* Card Pulseira */ 
         content += '<div class="card">';
         content += '<div class="productImg">';
         content += '<img src="images/'+ productsList[i][2] + '">';

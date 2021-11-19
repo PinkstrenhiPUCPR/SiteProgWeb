@@ -46,9 +46,7 @@ function buyIt(id){
     window.localStorage.setItem("shopList", JSON.stringify(shopList));
     buildProductCard();
 }
-/*function changePageShoppingCart(){
-    window.location.href = "http://localhost/ProgWEB/TrabalhoSite/Pages/shoppingCart.html";
-}*/
+
 
 
 
